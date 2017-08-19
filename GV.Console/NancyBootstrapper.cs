@@ -1,4 +1,5 @@
-﻿using GV.WebApi.IpfsConnector;
+﻿using GV.WebApi.EthConnector;
+using GV.WebApi.IpfsConnector;
 using Nancy;
 using Nancy.TinyIoc;
 
@@ -12,6 +13,7 @@ namespace GV.WebApi.Console
     )
         {
             container.Register<IIpfsConnector, IpfsConnector.IpfsConnector>().AsMultiInstance();
+            container.Register<IEthConnector, EthConnector.EthConnector>().AsMultiInstance();
         }
     }
 }
