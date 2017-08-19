@@ -2,7 +2,7 @@
 
 namespace GV.WebApi.IpfsConnector
 {
-    public class IpfsConnector
+    public class IpfsConnector : IIpfsConnector
     {
     }
 }

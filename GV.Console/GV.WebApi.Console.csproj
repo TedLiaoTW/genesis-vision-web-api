@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GV.WebApi.IpfsConnector\GV.WebApi.IpfsConnector.csproj" />
     <ProjectReference Include="..\Ipfs\Ipfs.csproj" />
   </ItemGroup>
 
